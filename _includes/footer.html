@@ -1,0 +1,23 @@
+---
+layout: default
+title: Wait, Hear Me Out
+---
+<main>
+  <h1>Wait, Hear Me Out</h1>
+  
+  <!-- About Me Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Vaishnavi. Here’s a little about me...</p>
+    <img src="/images/my-photo.jpg" alt="My Photo" width="200">
+  </section>
+
+  <!-- Latest Scrolls Post -->
+  <section class="latest">
+    <h2>Latest Scroll</h2>
+    {% assign latest_post = site.posts.first %}
+    <h3>{{ latest_post.title }}</h3>
+    <p>{{ latest_post.excerpt }}</p>
+    <a href="{{ latest_post.url }}" class="button">Read Full Scroll</a>
+  </section>
+</main>
