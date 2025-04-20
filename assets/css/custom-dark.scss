@@ -1,32 +1,29 @@
-/* Dark mode override for minima */
+/* Force dark mode on minima */
+
 body {
-  background-color: #111;
-  color: #eee;
+  background-color: #111 !important;
+  color: #eee !important;
   font-family: 'Segoe UI', sans-serif;
 }
 
 a {
-  color: #a78bfa;
+  color: #a78bfa !important;
+  text-decoration: none;
 }
+
 a:hover {
-  color: #c4b5fd;
+  color: #c4b5fd !important;
 }
 
-.site-header {
-  background-color: #1c1c1c;
-  border-bottom: 1px solid #333;
+.site-header, .site-footer {
+  background-color: #1a1a1a !important;
+  border-color: #333 !important;
 }
 
-.site-title, .site-nav a {
+.site-title, .site-nav a, .page-link {
   color: #eee !important;
 }
 
 .site-nav a:hover {
   color: #a78bfa !important;
-}
-
-.site-footer {
-  background-color: #1c1c1c;
-  color: #aaa;
-  border-top: 1px solid #333;
 }
