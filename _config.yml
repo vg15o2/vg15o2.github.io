@@ -54,12 +54,28 @@
 #   - vendor/gems/
 #   - vendor/ruby/
 title: "Wait, hear me out"
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-include-cache
+description: >- 
+  A space for musings, scribbles, scrolls, and spontaneous sparks of thought.
 
-# Optional: Navigation
-navigation:
+theme: minima
+
+# Enable plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Enable syntax highlighting + Sass support
+sass:
+  style: compressed
+
+# Minima-specific config
+minima:
+  skin: dark
+  social_links: [] # add GitHub, LinkedIn, etc. here later
+
+# Custom navigation (requires you to edit _includes/header.html)
+# Otherwise, remove this section
+nav:
   - title: "Scrolls"
     url: /scrolls/
   - title: "Scribbles"
@@ -67,3 +83,12 @@ navigation:
   - title: "Say hi"
     url: /say-hi/
 
+# Markdown and timezone
+markdown: kramdown
+kramdown:
+  input: GFM
+timezone: Asia/Kolkata
+
+# Include paths for custom assets
+include:
+  - assets/css
