@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contact Me
-permalink: /contact/
+title: Say Hi
+permalink: /say-hi/
 ---
 
 <div class="contact-container">
