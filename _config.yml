@@ -54,7 +54,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 title: "Wait, hear me out"
-theme: <your-current-theme-name>
+theme: minima
 
 # Navigation links
 nav:
