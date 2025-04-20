@@ -76,12 +76,12 @@ minima:
 # Custom navigation (requires you to edit _includes/header.html)
 # Otherwise, remove this section
 nav:
-  - title: "Say hi"
-    url: /say-hi/
   - title: "Scrolls"
     url: /scrolls/
   - title: "Scribbles"
     url: /scribbles/
+  - title: "Say hi"
+    url: /say-hi/
 
 
 # Markdown and timezone
