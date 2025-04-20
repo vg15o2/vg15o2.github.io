@@ -54,13 +54,16 @@
 #   - vendor/gems/
 #   - vendor/ruby/
 title: "Wait, hear me out"
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-include-cache
 
-# Navigation links
-nav:
+# Optional: Navigation
+navigation:
   - title: "Scrolls"
     url: /scrolls/
   - title: "Scribbles"
     url: /scribbles/
   - title: "Say hi"
     url: /say-hi/
+
