@@ -53,3 +53,14 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+title: "Wait, hear me out"
+theme: <your-current-theme-name>
+
+# Navigation links
+nav:
+  - title: "Scrolls"
+    url: /scrolls/
+  - title: "Scribbles"
+    url: /scribbles/
+  - title: "Say hi"
+    url: /say-hi/
